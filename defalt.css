@@ -338,6 +338,27 @@
   		background-color: #fff;
   	}
 
+  	  	.intro_section .school {
+	 	margin-top: 32px;
+	 	text-align: center;
+	 }
+ 	 .intro_section .school a {
+  		background-color: #38682c;
+ 		border: none;
+  		color: white;
+  		padding: 8px 20px;
+  		cursor: pointer;
+  		font-size: 15px;
+  		font-family: "Open Sans", sans-serif;
+  		font-weight: 900;
+/*  		text-shadow: 0 0 7px #ffffff;*/
+}
+
+	.intro_section .school a:hover {
+		color: #38682c;
+  		background-color: #fff;
+  	}
+
 /*section(공통)*/
 	.section {
 		min-width: 1280px;
