@@ -40,10 +40,10 @@
 		position: fixed;
 		z-index: 3000;
 		left: 0; top: 0; width: 100%; height: 80px;
-		background-color: #38682c;
+		background-color: #01bab0;
 		/*초록색*/
 	}
-	#header_container::selection {background-color:#38682c;; color:#nnnnnn;}
+	#header_container::selection {background-color:#01bab0;; color:#nnnnnn;}
 	#header_container .header_inner{
 		width: 1280px; height: 100%;
 		position: relative;
@@ -59,7 +59,7 @@
 	}
 
 	#header_container .logo:hover {
-		color: #f4b942;
+		color: #5f5f5f;
 	}
 
 
@@ -95,13 +95,13 @@
 	/*메뉴 밑의 보더 요소*/
 
 	#header_container li a:hover {
-		color:#f4b942;
+		color:#5f5f5f;
 		/*노란색*/
 	}
 
 	#header_container li a:hover::after {
 		transform: scale(1,1); /*가로로 없었다가 생김*/
-		background-color: #f4b942;  /*마우스 오버 했을 때 컬러*/
+		background-color: #5f5f5f;  /*마우스 오버 했을 때 컬러*/
 	}
 
 
@@ -161,6 +161,7 @@
 		text-align: left;
 		color: #ffffff;
 		position: relative;
+		/*인트로 섹션 타이틀 색*/
 
 	}
 
@@ -172,6 +173,7 @@
 		font-weight: 600; line-height: 1.5;
 		text-transform: uppercase;
 		color: #d2d2d2;
+		/*인트로 섹션 서브타이틀 색*/
 	}
 
 
@@ -188,7 +190,7 @@
 	 	position: absolute;
 	 	text-align: right;
 	 	top:0; right: 0;
-	 	background-color:#f4b942;
+	 	background-color:#f5f5f5;
 	 	height: 100%
 	 	padding-top: 80px;
 	 	bottom: 0;
@@ -226,7 +228,7 @@
 	 	display: inline-block;
 	 	width: 90px;
 	 	height: 2px;
-	 	background-color: #fff;
+	 	background-color: #5f5f5f;
 	}
 
 	.intro_section .content_wrap .contBox {
@@ -243,21 +245,21 @@
 	 	position: relative;
 	 	color: #fff;
 	 	margin: 20px 0;
-	 	color: #38682c;
+	 	color: #01bab0;
 	}
 
 
 	.intro_section .content_wrap .contBox .job {
 	 	font-size: 16px;
 	 	position: relative;
-	 	color: #fff;
+	 	color: #5f5f5f;
 	 	font-weight: 600;
 	 	margin-top:20px;
 	 }
 
 	 .intro_section .content_wrap .contBox .birthday {
 	 	position: relative;
-	 	color: #fff;
+	 	color: #5f5f5f;
 	 	font-weight: 600;
 	 	margin-top:20px;
 	 	display: block;
@@ -268,7 +270,7 @@
 	 	position: relative;
 	 	margin-top: 10px;
 	 	font-weight: 600;
-	 	color:#fff;
+	 	color:#5f5f5f;
 	 	font-size: 14px;
 	 }
 
@@ -276,13 +278,13 @@
 	 	position: relative;
 	 	margin-top: 10px;
 	 	font-weight: 600;
-	 	color:#fff;
+	 	color:#5f5f5f;
 	 	font-size: 14px;
 	 }
 
 	 	 .intro_section .content_wrap .contBox .shcool {
 	 	position: relative;
-	 	color: #fff;
+	 	color: #5f5f5f;
 	 	font-weight: 600;
 	 	margin-top:20px;
 	 	display: block;
@@ -314,7 +316,7 @@
 	 }
 
 	 .intro_section .content_wrap .contBox .sns li a:hover {
-	 	background-color: #38682c;
+	 	background-color: #01bab0;
 	 }
 
 	 .intro_section .resume {
@@ -322,7 +324,7 @@
 	 	text-align: center;
 	 }
  	 .intro_section .resume a {
-  		background-color: #38682c;
+  		background-color: #01bab0;
  		border: none;
   		color: white;
   		padding: 8px 20px;
@@ -334,7 +336,7 @@
 }
 
 	.intro_section .resume a:hover {
-		color: #38682c;
+		color: #01bab0;
   		background-color: #fff;
   	}
 
@@ -343,7 +345,7 @@
 	 	text-align: center;
 	 }
  	 .intro_section .school a {
-  		background-color: #38682c;
+  		background-color: #01bab0;
  		border: none;
   		color: white;
   		padding: 8px 20px;
@@ -355,7 +357,7 @@
 }
 
 	.intro_section .school a:hover {
-		color: #38682c;
+		color: #01bab0;
   		background-color: #fff;
   	}
 
@@ -372,12 +374,14 @@
 		font-family: "Open Sans", sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #38682c;
+		color: #01bab0;
+		/*각 섹션의 타이틀 색*/
 	}
 	.section .subtext {
 		text-align: center;
 		font-size: 16px;
-		color: #f4b942;
+		color: #5f5f5f;
+		/*각 섹션의 서브타이틀 색*/
 		font-style: italic;
 		font-family: "Open Sans", sans-serif;
 		margin-top: 5px;
@@ -386,7 +390,7 @@
 		text-transform: uppercase;
 	}
 	#about_section {
-		background-color: #fdf1d9;
+		background-color: #ffffff;
 		background-size: 100% 100%;
 	}
 
@@ -398,14 +402,16 @@
 		font-size:70px;
 		font-weight: 900;
 		margin-top: 10px;
-		color: #544d41;
+		color: #464646;
+		/*about 섹션 타이틀 색*/
 		text-align: center;
 		transition: all 0.3s;
 	}
 
 	#about_section .mytext:hover {
 		transform: scale(1.1);
-		color: #f4b942;
+		color: #717171;
+		/*about 섹션 설명 색*/
 
 	}
 
@@ -424,7 +430,8 @@
 	}
 
 	#about_section .mytextdesc em:hover {
-		color: #f4b942;
+		color: #01bab0;
+		/*마우스 오버했을 때 색*/
 	}
 
  	#skill_section li {
@@ -554,7 +561,8 @@
 	 	 opacity: 0; /*원래 값 0임*/
 	 	 position: absolute; /*띄어주기*/
 	 	 left: 0; right: 0; top: 0; bottom: 0; /*전체 꽉 채워줌 */
-	 	 background-color: rgba(244,185,6,0.8);
+	 	 background-color: rgba(91,183,203,0.8);
+	 	/* 마우스 오버했을 때 전체 박스 색*/
 	 	 color: #fff;
 	 	 line-height: 358px; /*상하정렬*/
 	 	 text-align: center; /*가운데 정렬*/
@@ -599,11 +607,15 @@
 
 	#work_section .content_wrap .item .contBox .tit {
 	 	 font-size: 18px;
-	 	 color: #38682c;
+	 	 color: #5f5f5f;
 
 	 	 }
+
+	 	 /*작업목록 타이틀 색*/
+
 	#work_section .content_wrap .item .contBox .type {
-	 	 color:#f4b942;
+	 	 color:#01bab0;
+	 	/* 날짜*/
 	 	 margin-top: 8px;
 	 	 display: block; /*type을 block으로 바꿔줘야 margin-top이 먹는다. */
 	 	 text-transform: uppercase; /*대문자로 바꿔주기*/
@@ -611,6 +623,8 @@
 	 	 font-weight: 700;
 
 	 	 }
+
+	
 
 	#work_section .content_wrap .item .contBox .desc {
 	 	 color: #999;
@@ -626,6 +640,7 @@
 		/*388-393번째 줄은 텍스트가 해당 줄 이상 흘러넘칠시에 줄여주는 코드이다. */
 	 	 }
 
+	 	 /*작업목록 세부설명*/
 
 
 	 	/*s : footer*/
@@ -635,7 +650,8 @@
 	 	width : 100%;
 	 	height : 100px;
 	 	letter-spacing: -1px;
-	 	background-color: #38682c;
+	 	background-color: #5bb7cb;
+	 	/*푸터 배경 색*/
 	 	font-family: "Open Sans", sans-serif;
 	 	font-weight: 600;
 	 	text-align: center;
@@ -869,7 +885,8 @@
 
 
 	.a_color {
-		background-color: #fdf1d9;
+		background-color: #fff;
+		/*타임라인 배경색*/
 	}
 	.timeline {
   position: relative;
@@ -938,6 +955,7 @@
   position: relative;
   display: inline;
   background: rgb(248,248,248);
+  /*말풍선 색 */
   padding: 6px 10px;
   border-radius: 5px;
   font-family: "Open Sans", sans-serif;
@@ -968,8 +986,10 @@
   height: 12px;
   margin-top: -10px;
   background: #fff;
+  /*가운데 동그라미 색*/
   border-radius: 10px;
-  border: 4px solid rgb(244,185,62);
+  border: 4px solid #01bab0;
+  /*동그라미 테두리 색*/
   z-index: 10;
 }
 
@@ -1011,7 +1031,7 @@ left: -39px;
 
   line-height: 1em;
   font-size: 0.66666em;
-  color: rgb(53,102,41);
+  color: #01bab0;
   vertical-align: middle;
 }
 
@@ -1151,6 +1171,8 @@ left: -39px;
 
 
 .awardss {font-weight: 900;
-color: #38682C;
-background-color: #F4B942;
+color: #3d3d3d;
+/*background-color: #01bab0;*/
 }
+
+/*work섹션 안에 수상목록 색*/
